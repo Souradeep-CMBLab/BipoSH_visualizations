@@ -4,14 +4,18 @@ Traun Souradeep CMB Lab
 
 Files:
 
-1. nSI_maps_gen.ipynb: Greating nSI maps from CAMB maps using: SI *(1 + A f($\theta$ or $\varphi$)). 
-Also Calcultes Anchored Correlation maps by Ensemble and Spatial averaging.
+1. nSI+AnchoredCorr_functions.py: All important functions that are used ti generate nSI maps  or Anchored correlation
 
 2. C001_calc.ipynb: First attempt at getting an anchored correlation for different randomly generated maps, Planck Map. 
-Followed by Anchored Correlation Maps calculated for Planck 1024 and 2048 maps (need to download the maps to Data to be used)
 
-3. field_reconstruction.ipynb: creating maps from few randomly chosen a_lms and extracting C_l, alm and recreating the map using the recovered alms and plotting the maps.
+3. Anchored_Correlation.ipynb: Anchored Correlation Maps calculated for Planck 1024 and 2048 maps (need to download the maps to Data to be used)
 
-4. CMB_maps_harmonics.ipynb: Testing basic functions of Healpy
+4. nSI_maps_gen.ipynb: Greating nSI maps from CAMB maps using: SI *(1 + A f($\theta$ or $\varphi$)). 
+Also Calcultes Anchored Correlation maps by Ensemble and Spatial averaging.
 
-5. Rotation.ipynb: Testing Healpy rotations and testing the rotation method for cordinate transformation.
+
+5. field_reconstruction.ipynb: creating maps from few randomly chosen a_lms and extracting C_l, alm and recreating the map using the recovered alms and plotting the maps.
+
+6. CMB_maps_harmonics.ipynb: Testing basic functions of Healpy
+
+7. Rotation.ipynb: Testing Healpy rotations and testing the rotation method for cordinate transformation.
